@@ -41,14 +41,15 @@ namespace MauiAppTemooAgora.Services
                         sunrise = sunrise.ToString(),
                         sunset = sunset.ToString(),
                     }; //fecha objeto do tempo
-                } // Fecha if se o status do servidor doi sucesso
-            } // Fecha laço using
+                }
+            }
 
 
 
 
             return t;
         }
+
     }
 }
 

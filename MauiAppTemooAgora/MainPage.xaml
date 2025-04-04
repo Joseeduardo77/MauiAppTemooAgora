@@ -11,7 +11,11 @@
             <Entry x:Name="txt_cidade"/>
             <Button Text="Buscar" Clicked="Button_Clicked"/>
 
-            <Label x:Name="lbl_res"/>
+            <Label x:Name="lbl_res"
+                   Text="Os dados do clima aparecerão aqui..."
+                   FontSize="16"
+                   TextColor="Black"
+                   />
 
         </VerticalStackLayout>
     </ScrollView>

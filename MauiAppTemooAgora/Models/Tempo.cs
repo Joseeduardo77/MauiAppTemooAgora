@@ -7,10 +7,16 @@
         public double? temp_min { get; set; }
         public double? temp_max { get; set; }
         public int? visibility { get; set; }
+
+        
         public double? speed { get; set; }
+        
 
         public string? main { get; set; }
-        public string? description { get; set; }
+
+        
+            public string? description { get; set; }
+        
 
 
         public string? sunrise { get; set; }
